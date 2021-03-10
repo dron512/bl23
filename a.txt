@@ -1,0 +1,4 @@
+gcc -o a a.c
+./a 
+dpkg -l |grep gcc
+cd .. / 
