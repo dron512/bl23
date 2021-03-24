@@ -2,8 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define MAXLINE 100
-void copy(char from[], char to[]);
+#include "copy.h"
 
 char line[MAXLINE];    
 char longest[MAXLINE]; 
@@ -27,17 +26,6 @@ int main()
 			printf("longest = %s\n", longest);
 		}
 	}
-
-
 	return 0;
-}
-
-void copy(char from[], char to[])
-{
-	int i;
-
-	i = 0;
-	while ((to[i] = from[i]) != '\0')
-		++i;
 }
 
