@@ -11,7 +11,7 @@ void main(int argc,char* argv[]){
     int fd;
     ssize_t nread;
 
-    if( (fd =open(argv[1],O_CREAT|O_WRONLY|O_TRUNC,664)) == -1){
+    if( (fd =open(argv[1],O_RDONLY)) == -1){
         printf("파일쓰기모드로 만들기 실패");
     }
 

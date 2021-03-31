@@ -1,0 +1,11 @@
+total 88
+drwxrwxr-x 2 p p  4096 Mar 31 05:50 .
+drwxrwxr-x 7 p p  4096 Mar 31 04:33 ..
+-rw-rw-r-- 1 p p     0 Mar 31 05:50 ls.txt
+-rwxrwxr-x 1 p p 16784 Mar 31 05:24 open
+-rwxrwxrwx 1 p p   438 Mar 31 05:23 open.c
+-rwxrwxr-x 1 p p 16880 Mar 31 05:50 read
+-rw-rw-r-- 1 p p   469 Mar 31 05:49 read.c
+-rw------- 1 p p 12288 Mar 31 05:50 .read.c.swp
+-rwxrwxr-x 1 p p 16784 Mar 31 04:50 sprintf_01
+-rw-rw-r-- 1 p p     0 Mar 31 05:40 sprintf_01.c
