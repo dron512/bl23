@@ -21,24 +21,22 @@ int main(int argc,char** argv){
 
     printf("이름 학번 성적\n");
     scanf("%s %d %d",wstu.name,&wstu.id,&wstu.score);
-    write(fd,&wstu,sizeof(wstu));
-
     lseek(fd,sizeof(wstu)*wstu.id,SEEK_SET);
+    write(fd,&wstu,sizeof(wstu));
     
     printf("이름 학번 성적\n");
     scanf("%s %d %d",wstu.name,&wstu.id,&wstu.score);
-    write(fd,&wstu,sizeof(wstu));
-
     lseek(fd,sizeof(wstu)*wstu.id,SEEK_SET);
+    write(fd,&wstu,sizeof(wstu));
 
     printf("이름 학번 성적\n");
     scanf("%s %d %d",wstu.name,&wstu.id,&wstu.score);
-    write(fd,&wstu,sizeof(wstu));
-
     lseek(fd,sizeof(wstu)*wstu.id,SEEK_SET);
+    write(fd,&wstu,sizeof(wstu));
 
     printf("이름 학번 성적\n");
     scanf("%s %d %d",wstu.name,&wstu.id,&wstu.score);
+    lseek(fd,sizeof(wstu)*wstu.id,SEEK_SET);
     write(fd,&wstu,sizeof(wstu));
 
 /*
