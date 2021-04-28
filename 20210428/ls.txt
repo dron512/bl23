@@ -1,0 +1,8 @@
+total 48
+drwxrwxr-x  2 p p  4096 Apr 28 04:52 .
+drwxrwxr-x 12 p p  4096 Apr 28 04:23 ..
+-rwxrwxr-x  1 p p 16784 Apr 28 04:51 chmod01
+-rw-rw-r--  1 p p   546 Apr 28 04:50 chmod01.c
+-rw-------  1 p p 12288 Apr 28 04:50 .chmod01.c.swp
+-rw-rw-r--  1 p p  1032 Apr 28 04:33 ftype.c
+-rw-rw-r--  1 p p     0 Apr 28 04:52 ls.txt
