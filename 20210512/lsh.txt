@@ -1,0 +1,5 @@
+total 20
+drwxrwxr-x  2 p p  4096 May 12 04:26 .
+drwxrwxr-x 14 p p  4096 May 12 04:25 ..
+-rw-------  1 p p 12288 May 12 04:25 .ex01.c.swp
+-rw-rw-r--  1 p p     0 May 12 04:26 ls.txt
