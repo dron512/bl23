@@ -33,8 +33,12 @@ int main (int argc, char* argv[])
         perror("gethostbyname error"); // 호스트 찾기 오류  
     bzero((char *) &serverAddr, sizeof(serverAddr));
     serverAddr.sin_family = AF_INET;
+    // gethostbyname 으로 가져온 서버 ip 복사해서 설정
+    // hp->h_addr_list[0] 를 serverAddr.sin_addr.s_addr 로 복사
     bcopy((char *)hp->h_addr_list[0],
           (char *)&serverAddr.sin_addr.s_addr, hp->h_length);
+    // 서버ip 설정
+    serverAddr.sin_addr.sin_addr = inet_addr("127.0.0.1");
     serverAddr.sin_port = htons(port);
 
     do { /* 연결 요청 */
