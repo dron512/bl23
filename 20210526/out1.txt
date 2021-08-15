@@ -1,0 +1,3 @@
+ex01
+ex01.c
+out1.txt
